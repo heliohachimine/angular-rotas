@@ -13,6 +13,8 @@ import { LoginComponent } from './login/login.component';
 //import { CursoDetalheComponent } from './cursos/curso-detalhe/curso-detalhe.component';
 //import { CursoNaoEncontradoComponent } from './cursos/curso-nao-encontrado/curso-nao-encontrado.component';
 import { AppRoutingModule } from './app.routing';
+import { AlunosComponent } from './alunos/alunos.component';
+import { AlunosModule } from './alunos/alunos.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,7 @@ import { AppRoutingModule } from './app.routing';
     //CursosComponent,
     HomeComponent,
     LoginComponent,
+    //AlunosComponent,
     //CursoDetalheComponent,
     //CursoNaoEncontradoComponent
   ],
@@ -27,7 +30,8 @@ import { AppRoutingModule } from './app.routing';
     BrowserModule,
     MaterializeModule,
     CursosModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AlunosModule
     //routing
   ],
   //providers: [CursosService],
